@@ -1,1 +1,3 @@
-# Airbnb_map for showing to students
+# Bivariate Airbnb Map in leaflet
+
+>
