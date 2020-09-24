@@ -6,11 +6,11 @@
 
 In this lab, we will design an interactive web map of Airbnbs in Buncombe County, NC. One of the key components of web map design is styling your elements to provide proper symbolization for your data. This increases accessibility for readers and can give your map an appealing sense of aesthetics. Map elements can be customized to include thematic layers (i.e., points, lines, and polygons), base maps (as a leaflet `tileLayer`), interactive features (the components of the map that allow for user interaction), and legends and supplemental information (such as credits, etc.). To get started, two GeoJSON files are available on the course ASULearn page: (1) Buncombe county Airbnbs, which are from [Inside Airbnb](http://insideairbnb.com/get-the-data.html), and Buncombe county Zoning Districts from [City of Asheville Open Data Portal](https://data-avl.opendata.arcgis.com/datasets/c22b353722b14d02bb06b23cd1bedf60_9?geometry=-82.760%2C35.549%2C-82.346%2C35.647). Note that I downloaded theses files as shapefiles and converted them to GeoJSON format using the QGIS conversion process we have discussed previously. To get started, download these files to your directory for this lab and then preview the final web map at the URL below.
 
-You should organize your directory as follows:
-
+The following is a suggested organization for your directory.
 ```powershell
-[your_directory/repository_name]
+[your_repository_name]
     │index.html
+    │readme.md
     ├─assets
     │      [name of your data file].geojson
     │      [name of your data file].geojson
@@ -20,7 +20,7 @@ You should organize your directory as follows:
 
 ## 1. Set up the Map and Add Data
 
-In your IDE (Atom), create a new file `lab3_map1.html` to prepare for editing.
+In your IDE (Atom), create a new file `index.html` to prepare for editing.
 
 This file is a basic HTML page. The sample code for a basic HTML page is listed below for copying into your file.
 
@@ -82,7 +82,7 @@ var mymap = L.map('map', {
 L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(mymap);
 ```
 
-Now we will open up Atom live server, and then navigate to your saved ``lab3_map1.html``. Remember from lecture 3 that we can launch the live server by using `Ctrl` + `Alt` + `l` (`Ctrl` + `Option` + `l` on Mac) in  Atom's main window. The url address of lab3_map1.html should be `https://localhost:3000/lab3_map1.html`, or something similar based on how you have structured your directory.
+Now we will open up Atom live server, and then navigate to your saved `index.html`. Remember from lecture 3 that we can launch the live server by using `Ctrl` + `Alt` + `l` (`Ctrl` + `Option` + `l` on Mac) in  Atom's main window. The url address of index.html should be `https://localhost:3000/index.html`, or something similar based on how you have structured your directory.
 
 As a rule of thumb, you need to remember when the server is live and when it is not. When you make and save changes to your HTML file, the browser should automatically apply those changes over the live server, which will show you the result. To close the live server, remember that you can use `Ctrl` + `Alt` + `q` (`Ctrl` + `Option` + `q` on Mac).
 
