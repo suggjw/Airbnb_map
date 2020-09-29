@@ -6,7 +6,8 @@
 
 In this lab, we will design an interactive web map of Airbnbs in Buncombe County, NC. One of the key components of web map design is styling your elements to provide proper symbolization for your data. This increases accessibility for readers and can give your map an appealing sense of aesthetics. Map elements can be customized to include thematic layers (i.e., points, lines, and polygons), base maps (as a leaflet `tileLayer`), interactive features (the components of the map that allow for user interaction), and legends and supplemental information (such as credits, etc.). To get started, two GeoJSON files are available on the course ASULearn page: (1) Buncombe county Airbnbs, which are from [Inside Airbnb](http://insideairbnb.com/get-the-data.html), and Buncombe county Zoning Districts from [City of Asheville Open Data Portal](https://data-avl.opendata.arcgis.com/datasets/c22b353722b14d02bb06b23cd1bedf60_9?geometry=-82.760%2C35.549%2C-82.346%2C35.647). Note that I downloaded theses files as shapefiles and converted them to GeoJSON format using the QGIS conversion process we have discussed previously. To get started, download these files to your directory for this lab and then preview the final web map at the URL below.
 
-The following is a suggested organization for your directory.
+The following is a required organization for your directory or repository. It does not matter the location of this folder on your computer, however it must maintain the listed structure, which includes your html file, and an assets folder with the data files for this lab.
+
 ```powershell
 [your_repository_name]
     │index.html
@@ -564,7 +565,7 @@ Also, remember to add the following to your map:
 
 > **Note:** Please make sure the name of your repository is **NOT**`lab03` or similiar, use a name which can describe the theme of the map you will make. You want to show your work to a potential employer or graduate school advisor, so it needs to have a polished look and feel in its presentation.
 
-- The internal structure of the files in your project repository should be well organized and they must follow the pathnames that you created in your code. The structure below provides a suitable example. **(10 points)**
+- The internal structure of the files in your project repository should be organized and follow the pathnames that you created in your code. The structure below is required. **(10 points)**
 
 ```powershell
 [your_repository_name]
