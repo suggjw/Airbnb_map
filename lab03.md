@@ -215,7 +215,7 @@ var colors = chroma.scale('Dark2').mode('lch').colors(2);
 
 // 5. dynamically append style classes to this page. The style classes will be used to shade the markers.
 // We can use a for loop to do this write this css style tag.
-for (i = 0; i < 2; i++) {
+for (i = 0; i < 3; i++) {
     $('head').append($("<style> .marker-color-" + (i + 1).toString() + " { color: " + colors[i] + "; font-size: 15px; text-shadow: 0 0 3px #ffffff;} </style>"));
 }
 
