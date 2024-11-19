@@ -10,4 +10,4 @@ This map was developed as an example of bivariate symbolization using point and 
 - **Chroma.js** (for color conversions and color scales)
 
 **Data Provided by:** 
-Two GeoJSON files were acquired as shapefiles and then converted for (1) Buncombe county Airbnbs, which are from [Inside Airbnb](insideairbnb.com), and (2) Buncombe county Zoning Districts from City of Asheville [Open Data Portal](https://data-avl.opendata.arcgis.com/).
+Two GeoJSON files were acquired as shapefiles and then converted for (1) Buncombe county Airbnbs, which are from [Inside Airbnb](https://insideairbnb.com), and (2) Buncombe county Zoning Districts from City of Asheville [Open Data Portal](https://data-avl.opendata.arcgis.com/).
